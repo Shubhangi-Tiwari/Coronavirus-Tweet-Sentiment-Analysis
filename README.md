@@ -14,17 +14,17 @@ This challenge asks you to build a classification model to predict the sentiment
 
 The provided Dataset is of Coronavirus Tweet which consists detail of tweets done by user. There are total 41157 rows and 6 columns in the provided dataset. In this dataset there are details for tweets such as Tweet timing which states Date for a particular tweet. Username and Screenname of the user which is coded to avoid privacy concerns. Original tweet of user, location from where tweet is done and Sentiment behind that tweet. In short, there are UserName, ScreenName, OriginalTweet, TweetAt, Location and Sentiment variables. The main objective is to predict the sentiment of COVID-19 tweet. Following are the details of all columns present:
 
-UserName- Date of record for stocks
+UserName- Coded UserName for the User
 
-ScreenName – Opening price of stocks
+ScreenName - Coded ScreenName for the User
 
-OriginalTweet – Highest price in the day for stocks
+Location- Region of Origin
 
-TweetAt – Lowest price in the day for stocks
+TweetAt - Timing of Tweet
 
-Location – Closing price of stock
+OriginalTweet - First tweet in the thread
 
-Sentiment – Sentiment of the Tweet
+Sentiment- Sentiment of the tweet
 
 **Data Preprocessing**
 
